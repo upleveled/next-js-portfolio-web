@@ -1,6 +1,6 @@
 import { devices, PlaywrightTestConfig } from '@playwright/test';
 
-// config file reference - https://playwright.dev/docs/test-configuration
+// Config file docs: https://playwright.dev/docs/test-configuration
 const config: PlaywrightTestConfig = {
   webServer: {
     command: 'pnpm start',
