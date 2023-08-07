@@ -13,14 +13,12 @@ const config: PlaywrightTestConfig = {
     ? 'list'
     : [['html', { outputFolder: 'playwright/report/' }]],
   outputDir: 'playwright/test-results/',
-
   use: {
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     testIdAttribute: 'data-test-id',
   },
-
   projects: [
     {
       name: 'chromium',
