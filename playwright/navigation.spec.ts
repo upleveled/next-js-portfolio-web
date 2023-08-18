@@ -23,5 +23,5 @@ test('Can find the different components in the app', async ({ page }) => {
   await page.waitForURL('/contact');
 
   await expect(page.url()).toContain('/contact');
-  await expect(page.getByTestId('pageTitle')).toHaveText('test');
+  await expect(page.getByTestId('pageTitle')).toHaveText('Contact');
 });
