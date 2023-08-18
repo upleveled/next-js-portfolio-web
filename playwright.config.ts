@@ -8,7 +8,7 @@ const config: PlaywrightTestConfig = {
   },
   testMatch: '**/playwright/**',
   reporter: process.env.CI
-    ? 'list'
+    ? 'github'
     : [['html', { outputFolder: 'playwright/report/' }]],
   outputDir: 'playwright/test-results/',
   use: {
