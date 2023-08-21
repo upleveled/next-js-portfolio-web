@@ -3,7 +3,7 @@ on: push
 
 jobs:
   e2e-tests:
-    name: Playwright test
+    name: Playwright Test
     runs-on: ubuntu-latest # or macos-latest, windows-latest
     steps:
       - uses: actions/checkout@v3
