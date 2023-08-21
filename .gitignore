@@ -33,6 +33,6 @@ yarn-error.log*
 
 *.tsbuildinfo
 
-playwright/test-results/
-playwright/report/
+/playwright/test-results/
+/playwright/report/
 /playwright/.cache/
