@@ -12,9 +12,9 @@ const config: PlaywrightTestConfig = {
     : [['html', { outputFolder: 'playwright/report/' }]],
   outputDir: 'playwright/test-results/',
   use: {
+    testIdAttribute: 'data-test-id',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    testIdAttribute: 'data-test-id',
   },
 };
 
