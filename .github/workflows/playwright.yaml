@@ -10,6 +10,7 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
+
       # Use the official setup-node action (sets up Node.js):
       # https://github.com/actions/setup-node
       - name: Use Node.js
@@ -17,6 +18,7 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
+
       - name: Install dependencies
         run: pnpm install
       - name: Build Next.js app
