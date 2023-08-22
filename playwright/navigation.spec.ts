@@ -2,10 +2,10 @@ import { expect, test } from '@playwright/test';
 
 test('Navigate and check page content', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByTestId('homePageTitle')).toBeVisible();
   await expect(page.getByTestId('homePageLink')).toBeVisible();
   await expect(page.getByTestId('portfolioPageLink')).toBeVisible();
   await expect(page.getByTestId('contactPageLink')).toBeVisible();
+  await expect(page.getByTestId('pageTitle')).not.toBeEmpty();
 
   await page.getByTestId('aboutPageLink').click();
   await page.waitForURL('/about');
