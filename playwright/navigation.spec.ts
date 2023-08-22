@@ -10,18 +10,15 @@ test('Can find the different components in the app', async ({ page }) => {
   await page.getByTestId('aboutPageLink').click();
   await page.waitForURL('/about');
 
-  await expect(page.url()).toContain('/about');
   await expect(page.getByTestId('pageTitle')).toHaveText('About');
 
   await page.getByTestId('portfolioPageLink').click();
   await page.waitForURL('/portfolio');
 
-  await expect(page.url()).toContain('/portfolio');
   await expect(page.getByTestId('pageTitle')).toHaveText('Portfolio');
 
   await page.getByTestId('contactPageLink').click();
   await page.waitForURL('/contact');
 
-  await expect(page.url()).toContain('/contact');
   await expect(page.getByTestId('pageTitle')).toHaveText('Contact');
 });
