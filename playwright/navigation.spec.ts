@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('Can find the different components in the app', async ({ page }) => {
+test('Navigate and check page content', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByTestId('homePageTitle')).toBeVisible();
   await expect(page.getByTestId('homePageLink')).toBeVisible();
