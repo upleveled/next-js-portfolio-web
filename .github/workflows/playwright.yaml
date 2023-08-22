@@ -1,9 +1,9 @@
-name: Playwright Test
+name: Playwright Tests
 on: push
 
 jobs:
-  e2e-tests:
-    name: Playwright Test
+  playwright-tests:
+    name: Playwright Tests
     runs-on: ubuntu-latest # or macos-latest, windows-latest
     steps:
       - uses: actions/checkout@v3
