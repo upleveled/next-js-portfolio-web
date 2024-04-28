@@ -24,8 +24,9 @@
     "@types/sass": "1.45.0",
     "@types/sharp": "0.32.0",
     "eslint": "8.56.0",
-    "eslint-config-upleveled": "7.5.0",
+    "eslint-config-upleveled": "8.0.1",
     "postcss": "8.4.38",
+    "prettier": "^3.2.5",
     "stylelint": "16.4.0",
     "stylelint-config-upleveled": "1.1.1",
     "typescript": "5.4.5"
