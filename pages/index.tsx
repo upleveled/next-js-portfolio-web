@@ -15,7 +15,7 @@ function Home() {
         <div className="container">
           <div className="text-wrapper">
             <h1 data-test-id="pageTitle" className="title">
-              Halo, saya Lutfhi Ramadhan
+              Hi, my name is Lukas
             </h1>
             <p className="description">
               Saya seorang pekerja lepas pengembang web, fotograper, desainer
