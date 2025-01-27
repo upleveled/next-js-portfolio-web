@@ -23,7 +23,7 @@
     "@types/sass": "1.45.0",
     "@types/sharp": "0.32.0",
     "eslint": "9.19.0",
-    "eslint-config-upleveled": "8.12.1",
+    "eslint-config-upleveled": "9.0.0",
     "postcss": "8.5.1",
     "prettier": "^3.2.5",
     "stylelint": "16.14.1",
