@@ -9,26 +9,26 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "next": "15.2.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "sass": "1.83.4",
+    "sass": "1.85.1",
     "sharp": "0.33.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.36.2",
-    "@types/node": "22.10.10",
-    "@types/react": "19.0.8",
-    "@types/react-dom": "19.0.3",
+    "@types/node": "22.13.9",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
     "@types/sass": "1.45.0",
     "@types/sharp": "0.32.0",
-    "eslint": "9.19.0",
-    "eslint-config-upleveled": "9.0.0",
-    "postcss": "8.5.1",
+    "eslint": "9.21.0",
+    "eslint-config-upleveled": "9.2.1",
+    "postcss": "8.5.3",
     "prettier": "^3.2.5",
-    "stylelint": "16.14.1",
+    "stylelint": "16.15.0",
     "stylelint-config-upleveled": "1.1.9",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "packageManager": "pnpm@9.15.4"
 }
