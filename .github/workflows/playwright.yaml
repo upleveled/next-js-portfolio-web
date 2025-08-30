@@ -19,6 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      - run: pnpm stylelint '**/*.{css,scss,less,js,tsx}'
       - name: Build Next.js app
         run: pnpm build
 
