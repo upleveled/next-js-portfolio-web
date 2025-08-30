@@ -9,32 +9,33 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.4.7",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "sass": "1.89.2",
-    "sharp": "0.34.2"
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "sass": "1.91.0",
+    "sharp": "0.34.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.36.2",
-    "@types/node": "24.0.10",
-    "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.6",
+    "@types/node": "24.3.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
     "@types/sass": "1.45.0",
     "@types/sharp": "0.32.0",
-    "eslint": "9.30.1",
-    "eslint-config-upleveled": "9.2.3",
+    "eslint": "9.34.0",
+    "eslint-config-upleveled": "9.2.14",
     "postcss": "8.5.6",
     "prettier": "^3.2.5",
-    "stylelint": "16.21.1",
+    "stylelint": "16.23.1",
     "stylelint-config-upleveled": "1.1.10",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   },
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.15.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
-      "sharp"
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }
