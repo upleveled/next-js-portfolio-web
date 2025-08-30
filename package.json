@@ -34,7 +34,8 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
-      "sharp"
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }
