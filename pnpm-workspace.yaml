@@ -1,11 +1,14 @@
+# Allow build scripts for trusted dependencies
+# - https://pnpm.io/settings#allowbuilds
+allowBuilds:
+  '@parcel/watcher': true
+  sharp: true
+  unrs-resolver: false
+
 overrides:
   '@types/react': 19.2.18
   '@types/react-dom': 19.2.5
 
-allowBuilds:
-  '@parcel/watcher': true
-  sharp: true
-  unrs-resolver: true
 # Prevents installation of packages newer than 7 days
 # to mitigate supply chain risks
 # - https://pnpm.io/settings#minimumreleaseage
@@ -18,6 +21,6 @@ minimumReleaseAgeExclude:
   - next@16.1.5 || 16.2.6 || 16.2.11
   # Renovate security update: postcss@8.5.10 || 8.5.18 || 8.5.23
   - postcss@8.5.10 || 8.5.18 || 8.5.23
-# Fail on pnpm disallowed build scripts
+# Fail on pnpm ignored build scripts
 # - https://pnpm.io/settings#strictdepbuilds
 strictDepBuilds: true
