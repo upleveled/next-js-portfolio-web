@@ -10,7 +10,7 @@ export default function Navbar() {
     { text: 'Portfolio', href: '/portfolio', dataCy: 'portfolioPageLink' },
     { text: 'Contact', href: '/contact', dataCy: 'contactPageLink' },
     // { text: '', href: '' },
-  ];
+  ] as const;
 
   return (
     <nav className="navbar">
